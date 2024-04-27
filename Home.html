@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>
+            Home Page of Watches
+        </title>
+        <style>
+            .top-bar{
+                text-align:center;
+            }
+            
+            #section1{
+            float:left;
+            }
+
+            #section2{
+            float:right;
+            }
+
+            #section1{
+				width:45%;
+			}
+			
+			#section2{
+				width:55%;
+                hr: 100px;
+			}
+
+            body {
+                background-color: rgb(129, 81, 25);
+                width: 100%;
+            }
+            #P1{
+				height:100px;
+				width:100px;
+				position:relative;
+			}
+			#P2{
+                height:100px;
+				width:100px;
+				position:relative;
+            }
+
+            #main-content{
+                border: 1px solid #0f492c;
+                margin-top: 30%;
+                height: 80%;
+                margin-left: 5%;
+                margin-right: 5%;
+                background: rgb(155, 48, 146);
+            }
+           
+        </style>
+
+    </head>
+    <body>
+    <div id="main-content">
+        <div class="top-bar"> <br><br>
+            <button type="button" class="btn btn-danger" style="background-color: chartreuse";><a href="Home.html">Home</a></button>
+            <button type="button" class="btn btn-danger"><a href="About.html">About</a></button>
+            <button type="button" class="btn btn-danger"><a href="Contact.html">Contact</a></button>
+        </div>
+
+        <div class="section wrapper">
+		</div>
+
+        <div class="section" id="section1" >
+			<ul type="none">
+				<li> <h2>Features</h2></li>
+				<li><a href="Product.html"><button>Product</button></a></li><br>
+                <li><a href="AddProduct.html"><button>Add Product</button></a></li><br>
+                <li><a href="UpdateProduct.html"><button>Update Product</button></a></li><br>
+                <li><a href="DeleteProduct.html"><button>Delete Product</button></a></li><br>
+			</ul>
+		</div>
+        <div class="section" id="section2" >
+            <h5>popular product</h5>
+            
+            <hr>
+				<br><br>
+              <img src="watch1.jpg" id="P1"/>
+              <h5>Product:Watch Price:4200tk</h5>
+              <br>
+              <img src="watch2.jpg" id="p2"/>
+              <h5>Product:Watch Price:4500tk</h5>
+        </div>
+    </div>
+    </body>
+</html>
